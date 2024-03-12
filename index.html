@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    
+    <title>หยวนหยวน 20 บาท - หน้าหลัก</title>
+
+    <link rel="icon" type="image/x-icon" href="yuanyuan-favicon.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="top-contact">
+            <h2>ติดต่อหรือสั่งซื้อได้ที่ :</h2>
+            <a href="tel: 0802920905" style="padding-inline: 2rem;">080-292-0905</a>
+            <a href="https://www.facebook.com/yuanyuan20b" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="picture/fb-icon.webp" alt=""></a>
+            <a href="https://lin.ee/DG04Wkd" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="picture/ln-icon.webp" alt=""></a>
+            <a href="https://shopee.co.th/yuanyuan_20" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="picture/shp-icon.webp" alt=""></a>
+        </div>
+        <div class="yuanyuan-logo">
+            <a href="index.html"><img loading="lazy" src="picture/yuanyuan-logo.webp" alt=""></a>
+        </div>
+        <nav class="short-bar">
+            <div class="menu" onclick="toggleMenu()">
+                เมนู
+            </div>
+        </nav>
+        <nav class="long-bar">
+            <a class="active" href="index.html" style="border-left: none; border-top-left-radius: 0;">หน้าหลัก</a>
+            <a href="about-us.html">เกี่ยวกับเรา</a>
+            <a href="products.html">สินค้า</a>
+            <a href="ordering.html">วิธีสั่งซื้อ</a>
+            <a href="review.html">รีวิว</a>
+            <a href="contact-us.html" style="border-right: none; border-top-right-radius: 0;">ติดต่อเรา</a>
+        </nav>
+    </header>
+
+    <section>
+        <div class="hero">
+            <h1>
+                ร้านหยวนหยวน20 ขายส่งสินค้า 20 บาท
+            </h1>
+            <h2>
+                ส่งของแน่น ๆ จุก ๆ ทุกวัน ไม่เว้นวันหยุด <br>
+                จัดส่งฟรีทั่วประเทศ (ขั้นต่ำเพียง 6,000 บาท!)
+            </h2>
+            <h3>
+                ร้านหยวนหยวน 20 <br>
+                ร้านขายปลีกขายส่ง สินค้า 20 บาท <br>
+                <br>
+                <span>ครบ ถูก ดี ที่ หยวนหยวน</span> <br>
+                <br>
+                ร้านคนไทย ผลิตในไทย <br>
+                ชื่อเหมือนจีน ราคาเหมือนจีน <br>
+                <br>
+                สั่งซื้อจำนวนมาก แอดไลน์ <a class="blinking" href="https://lin.ee/DG04Wkd" target="_blank" rel="noopener noreferrer">@YUANYUAN20</a>
+            </h3>
+            <img loading="lazy" src="picture/yy-banner.webp" alt="">
+        </div>
+
+        <h2>ประกาศ</h2>
+        <div class="two-grid">
+            <img loading="lazy" src="picture/announce-1.webp" alt="">
+            <img loading="lazy" src="picture/announce-2.webp" alt="">
+        </div>
+
+        <h2>รูปตัวอย่าง</h2>
+        <div class="two-grid">
+            <img loading="lazy" src="picture/exam-img-1.webp" alt="">
+            <img loading="lazy" src="picture/exam-img-2.webp" alt="">
+            <img loading="lazy" src="picture/exam-img-3.webp" alt="">
+            <img loading="lazy" src="picture/exam-img-4.webp" alt="">
+            <img loading="lazy" src="picture/exam-img-6.webp" alt="">
+            <img loading="lazy" src="picture/exam-img-7.webp" alt="">
+        </div>
+
+        <h2>สินค้าที่เราแนะนำ</h2>
+        <div class="four-grid recommend-prod frungfring">
+        </div>
+
+        <h3 class="important"><span>คลิกที่รูป</span>เพื่อซื้อปลีก หรือ<span>ติดต่อเรา</span>เพื่อซื้อจำนวนมาก <span>คลิกเลย!</span></h3>
+        <div class="imp-con">
+            <a id="0" href="tel: 0802920905" style="padding-inline: 2rem;">080-292-0905</a>
+            <a id="0" href="https://www.facebook.com/yuanyuan20b" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="picture/fb-icon.webp" alt=""></a>
+            <a id="0" href="https://lin.ee/DG04Wkd" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="picture/ln-icon.webp" alt=""></a>
+            <a id="0" href="https://shopee.co.th/yuanyuan_20" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="picture/shp-icon.webp" alt=""></a>
+        </div>
+
+        <h2>สินค้าทั้งหมด</h2>
+
+        <div class="products-list">
+            <label for="products">เลือกหมวดหมู่สินค้า</label>
+            <select name="products" id="products" onchange="getOption(value)">
+                <option value="0">สินค้าทั้งหมด</option>
+            </select>
+        </div>
+
+        <div class="four-grid all-prod">
+            <a id="0" class="product-box" href="yo" target="_blank" rel="noopener noreferrer">
+                <img class="prd" loading="lazy" src="picture/เซ็ตป้ายตั้ง.webp" alt="">
+            </a>
+        </div>
+
+    </section>
+
+    <div class="top-button">
+        <button onclick="topFunction()" id="myBtn" title="Go to top">&#8679</button>
+    </div>
+
+    <div class="margin-foot"></div>
+    
+    <footer>
+        <div class="contact">
+            <div class="address">
+                <span>ที่อยู่</span><br>
+                ถ.เพชรเกษม แขวงวัดท่าพระ เขตบางกอกใหญ่ กทม. 10600
+            </div>
+            <div class="phone-number">
+                <span>เบอร์โทรศัพท์</span><br>
+                <a href="tel: 0802920905">080-292-0905</a>
+            </div>
+            <a class="img" href="https://www.facebook.com/yuanyuan20b" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="picture/fb-icon.webp" alt=""></a>
+            <a class="img" href="https://lin.ee/DG04Wkd" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="picture/ln-icon.webp" alt=""></a>
+            <a class="img" href="https://shopee.co.th/yuanyuan_20" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="picture/shp-icon.webp" alt=""></a>
+        </div>
+        <nav class="long-bar">
+            <a class="active" href="index.html">หน้าหลัก</a>
+            <a href="about-us.html">เกี่ยวกับเรา</a>
+            <a href="products.html">สินค้า</a>
+            <a href="ordering.html">วิธีสั่งซื้อ</a>
+            <a href="review.html">รีวิว</a>
+            <a href="contact-us.html">ติดต่อเรา</a>
+        </nav>
+        <div class="margin-credit"></div>
+        <div class="credit">
+            ©2024 YUANYUAN20 ALL RIGHTS RESERVED.
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.8.0/jszip.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.8.0/xlsx.js"></script>
+</body>
+</html>
+
+<script>
+    var url = "yuanyuan_products.xlsx";
+    var oReq = new XMLHttpRequest();
+    oReq.open("GET", url, true);
+    oReq.responseType = "arraybuffer";
+    
+    oReq.onload = function(e) {
+        var arraybuffer = oReq.response;
+    
+        var data = new Uint8Array(arraybuffer);
+        var arr = new Array();
+        for(var i = 0; i != data.length; ++i) arr[i] = String.fromCharCode(data[i]);
+        var bstr = arr.join("");
+    
+        var workbook = XLSX.read(bstr, {type:"binary"});
+
+        for (i = 0; i < workbook.SheetNames.length; i++) {
+            var sheet_name = workbook.SheetNames[i];
+            var worksheet = workbook.Sheets[sheet_name];
+            var data = XLSX.utils.sheet_to_json(worksheet,{raw:true});
+            
+            organizingJSON(data, i);
+        }
+
+        deleteFirstBox();
+    }
+    oReq.send();
+</script>
