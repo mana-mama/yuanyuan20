@@ -97,6 +97,8 @@ header .top-contact {
     align-items: center;
     background: var(--color-4);
     height: 10rem;
+
+    z-index: 100;
 }
 
 header .top-contact a {
